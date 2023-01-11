@@ -6,7 +6,7 @@ const dotenv = require('dotenv').config()
 const app = express()
 
 const PORT = process.env.PORT || 4000
-const HOST = '192.168.18.6'
+const HOST = '0.0.0.0'
 
 
 // Enable body parser
